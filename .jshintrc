@@ -1,0 +1,22 @@
+{
+    "node": true,
+    "camelcase": true,
+    "curly": true,
+    "immed": true,
+    "jquery": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+    "smarttabs": true,
+    "globals": {
+        "_": false,
+        "ok": false,
+        "equal": false,
+        "compileUnderscoreTemplates": false,
+        "test": false
+    }
+}

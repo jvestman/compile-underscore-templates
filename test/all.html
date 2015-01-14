@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="lib/qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+
+  <script type="underscore_template" id="foo_template">
+  	constant string
+  </script>
+
+  <script type="underscore_template" id="template_with_variable">
+  	<%- variable %>
+  </script>
+
+  <script type="underscore_template" id="template_with_call_to_another_template">
+  	<%- fooTemplate() %>
+  </script>
+
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/lodash/dist/lodash.js"></script>
+  <script src="../bower_components/underscore.string/dist/underscore.string.min.js"></script>
+  <script src="./lib/qunit.js"></script>
+  <script src="../dist/compile-underscore-templates.js"></script>
+  <script src="./all.js"></script>
+</body>
+</html>
