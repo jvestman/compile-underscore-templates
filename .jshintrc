@@ -17,6 +17,7 @@
         "ok": false,
         "equal": false,
         "compileUnderscoreTemplates": false,
-        "test": false
+        "test": false,
+        "s": false
     }
 }

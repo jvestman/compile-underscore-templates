@@ -9,7 +9,7 @@
 var compileUnderscoreTemplates = function() {
   
   var templates = {};
-  $( 'script[type="underscore_template"]' ).each( function(){ templates[ _.str.camelize( $(this).attr('id') ) ] = _.template( $(this).html(), null, { imports: templates } ); });
+  $( 'script[type="underscore_template"]' ).each( function(){ templates[ s.camelize( $(this).attr('id') ) ] = _.template( $(this).html(), null, { imports: templates } ); });
   return templates;
 
 };
