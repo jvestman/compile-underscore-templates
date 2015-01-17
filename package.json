@@ -1,6 +1,6 @@
 {
   "name": "compile-underscore-templates",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "main": "dist/compile-underscore-templates.min.js",
   "description": "Compiles underscore templates present in DOM to a object",
   "repository": {
